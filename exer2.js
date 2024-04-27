@@ -1,9 +1,8 @@
 const finalDaCopa = new Date(2002, 5, 30, 8, 0, 0, 0);
-const inicioTimeStemp = +finalDaCopa
 
-const momentoPrimeiroGol = inicioTimeStemp + (45 + 22 +15)*1000*60
+const primeiroGol = +finalDaCopa + (45 + 15 + 22) + (1000 * 60)
 
-const primeiroGol = new Date(momentoPrimeiroGol)
+const segundoGol = +finalDaCopa + (45 + 15 + 34) + (1000 * 60)
 
-console.log(primeiroGol)
+console.log(primeiroGol, segundoGol)
 
